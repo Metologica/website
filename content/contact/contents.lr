@@ -1,0 +1,31 @@
+_model: page
+---
+title: Contacto
+---
+body:
+<link href="/static/form.css" rel="stylesheet">
+<div id="fcf-form"class="fcf-body">
+    <form id="fcf-form-id" class="fcf-form-class" method="POST" action="https://formsubmit.co/el/yawina">
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Nombre</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Correo electronico</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Mensage</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+    </form>
+</div>
