@@ -5,7 +5,7 @@ title: Contacto
 body:
 <link href="/static/form.css" rel="stylesheet">
 <div id="fcf-form"class="fcf-body">
-    <form id="fcf-form-id" class="fcf-form-class" method="POST" action="https://formsubmit.co/el/yawina">
+    <form id="fcf-form-id" class="fcf-form-class" method="POST" action="https://formsubmit.co/info@metologica.com">
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Nombre</label>
             <div class="fcf-input-group">
